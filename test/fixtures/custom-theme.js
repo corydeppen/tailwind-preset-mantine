@@ -34,6 +34,9 @@ const theme = createTheme({
 		lg: "960px",
 		xl: "1200px",
 	},
+	spacing: {
+		xxs: "0.5rem",
+	},
 });
 
 export default theme;

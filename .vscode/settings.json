@@ -1,5 +1,4 @@
 {
-	"unocss.root": ["./examples/vite"],
 	"editor.codeActionsOnSave": {
 		"source.fixAll.biome": "explicit"
 	},
@@ -14,6 +13,9 @@
 		"editor.defaultFormatter": "biomejs.biome"
 	},
 	"[typescript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[javascriptreact]": {
 		"editor.defaultFormatter": "biomejs.biome"
 	}
 }
