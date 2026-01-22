@@ -105,7 +105,7 @@ export function generateTheme(theme, defaultsToExclude = []) {
 		${defaultsToExclude.includes("breakpoint") ? "--breakpoint-*: initial;" : ""}
 		${Object.keys(mergedTheme.breakpoints)
 			.map((size) => {
-				return `--breakpoint-${size}: var(--mantine-breakpoint-${size});`;
+				return `--breakpoint-${size}: ${mergedTheme.breakpoints[size]};`;
 			})
 			.join("\n  ")}
 	
